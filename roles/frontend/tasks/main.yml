@@ -36,5 +36,5 @@
     src: todo.conf
     dest: /etc/nginx/sites-enabled/todo.conf
 
-- name: Restart the Nginx
-  include_tasks: handlers
+dependencies:
+  - role: handlers
