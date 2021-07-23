@@ -37,5 +37,4 @@
     dest: /etc/nginx/sites-enabled/todo.conf
 
 - name: Start Nginx
-  notify: Restart Nginx
-  
+  notify: Start Nginx
