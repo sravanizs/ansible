@@ -36,5 +36,5 @@
     src: todo.conf
     dest: /etc/nginx/sites-enabled/todo.conf
 
--dependencies:
-  - role: handlers
+- name: Nginx restart
+  notify: Restart Nginx
