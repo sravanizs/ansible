@@ -35,6 +35,4 @@
   template:
     src: todo.conf
     dest: /etc/nginx/sites-enabled/todo.conf
-
-- name: Start Nginx
   notify: Start Nginx
