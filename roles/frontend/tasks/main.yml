@@ -37,4 +37,4 @@
     dest: /etc/nginx/sites-enabled/todo.conf
 
 - name: Restart the Nginx
-    include_tasks: handlers
+  include_tasks: handlers
